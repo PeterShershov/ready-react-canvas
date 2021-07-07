@@ -22,7 +22,6 @@ export const Canvas: React.VFC<CanvasHTMLAttributes<HTMLCanvasElement>> = ({
       ref={canvasRef}
       className={classnames(classes.canvas, className)}
       {...props}
-      id="canvas"
     />
   );
 };
